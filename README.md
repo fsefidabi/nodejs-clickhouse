@@ -1,6 +1,6 @@
-# PostgreSQL $ ClickHouse database 
+# Node.js & ClickHouse
 
-Simple Node.js modules that connect to clickhouse database, using '@apla/clickhouse' package. You can insert bulk random rows directly to the table, or insert them using RabbitMQ message broker.
+Simple Node.js module that connects to clickhouse database, using '@apla/clickhouse' package. You can insert bulk random rows directly to the table, or insert them using RabbitMQ message broker.
 
 ## Quick Start
 
