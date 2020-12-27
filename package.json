@@ -1,0 +1,32 @@
+{
+  "name": "clickhouse",
+  "version": "1.0.0",
+  "description": "A Node.js module that connects to clickhouse database and uses rabbitmq to handle messages.",
+  "main": "index.js",
+  "dependencies": {
+    "@apla/clickhouse": "^1.6.4",
+    "amqplib": "^0.6.0",
+    "batch2": "^2.0.0",
+    "chance": "^1.1.7",
+    "config": "^3.3.3",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "scripts": {
+    "table": "node lib/clickhouse/create-table.js",
+    "direct-insert": "node examples/direct-insert.js",
+    "rmq-insert": "node examples/rabbitmq-insert.js",
+    "drop": "node lib/clickhouse/drop-table.js"
+  },
+  "keywords": [
+    "clickhouse",
+    "database",
+    "column-oriented",
+    "rabbitmq",
+    "amqplib"
+  ],
+  "author": "Farzaneh Sefidabi",
+  "license": "ISC"
+}
