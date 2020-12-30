@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce69504-42cf-49c3-81ba-a6e7aff6a205" name="Default Changelist" comment="" />
+    <list default="true" id="4ce69504-42cf-49c3-81ba-a6e7aff6a205" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/rabbitmq-insert.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/rabbitmq-insert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/clickhouse/argv.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/argv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,14 +55,14 @@
       <recent name="$PROJECT_DIR$/bulk-insert" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.create-stream.js">
-    <configuration name="consumer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/consumer.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
+  <component name="RunManager" selected="Node.js.rabbitmq-insert.js">
+    <configuration name="argv.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/argv.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
       <method v="2" />
     </configuration>
     <configuration name="create-stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/create-stream.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
       <method v="2" />
     </configuration>
-    <configuration name="create-table.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/create-table.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
+    <configuration name="message-broker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/message-broker.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <configuration name="publisher.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/publisher.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
@@ -63,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.create-stream.js" />
         <item itemvalue="Node.js.rabbitmq-insert.js" />
-        <item itemvalue="Node.js.create-table.js" />
-        <item itemvalue="Node.js.consumer.js" />
+        <item itemvalue="Node.js.message-broker.js" />
         <item itemvalue="Node.js.publisher.js" />
+        <item itemvalue="Node.js.argv.js" />
+        <item itemvalue="Node.js.create-stream.js" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1609058784759</updated>
       <workItem from="1609058786079" duration="9396000" />
+      <workItem from="1609074350473" duration="348000" />
+      <workItem from="1609074923037" duration="9000" />
+      <workItem from="1609075061337" duration="21000" />
+      <workItem from="1609128579788" duration="598000" />
+      <workItem from="1609133198085" duration="106000" />
+      <workItem from="1609133389282" duration="614000" />
+      <workItem from="1609308247015" duration="1749000" />
+      <workItem from="1609310576299" duration="21058000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,7 @@ npm i
 
 ---
 
-> Configuration options in both postgres and clickhouse databases:
+> Configuration options:
 > 
 > Table name: -t _my_table_ (default value: _devices_)
 > 
