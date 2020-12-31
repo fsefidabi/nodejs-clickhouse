@@ -10,10 +10,5 @@
   },
   "bulkFlow": {
     "size": 1000
-  },
-  "amqpConfig" : {
-    "exchange": "insertExchange",
-    "queues": ["insertQueue1", "insertQueue2"],
-    "bindingKeys": ["insertIntoDb1", "insertIntoDb2"]
   }
 }

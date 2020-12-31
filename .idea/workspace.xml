@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ce69504-42cf-49c3-81ba-a6e7aff6a205" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/rabbitmq-insert.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/rabbitmq-insert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clickhouse/argv.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/argv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../postgres" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,7 +53,7 @@
     <configuration name="argv.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/argv.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
       <method v="2" />
     </configuration>
-    <configuration name="create-stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/create-stream.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
+    <configuration name="consumer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/consumer.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <configuration name="message-broker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/message-broker.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
@@ -74,10 +68,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.rabbitmq-insert.js" />
+        <item itemvalue="Node.js.consumer.js" />
         <item itemvalue="Node.js.message-broker.js" />
         <item itemvalue="Node.js.publisher.js" />
         <item itemvalue="Node.js.argv.js" />
-        <item itemvalue="Node.js.create-stream.js" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +91,9 @@
       <workItem from="1609133198085" duration="106000" />
       <workItem from="1609133389282" duration="614000" />
       <workItem from="1609308247015" duration="1749000" />
-      <workItem from="1609310576299" duration="21058000" />
+      <workItem from="1609310576299" duration="22984000" />
+      <workItem from="1609340989355" duration="864000" />
+      <workItem from="1609400412391" duration="474000" />
     </task>
     <servers />
   </component>
