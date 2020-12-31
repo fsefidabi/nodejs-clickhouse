@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4ce69504-42cf-49c3-81ba-a6e7aff6a205" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.rabbitmq-insert.js">
-    <configuration name="argv.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/argv.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
+    <configuration name="cargo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/cargo.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <configuration name="consumer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/consumer.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
@@ -59,19 +61,19 @@
     <configuration name="message-broker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/message-broker.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
-    <configuration name="publisher.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/publisher.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
+    <configuration name="rabbitmq-insert.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/examples/rabbitmq-insert.js" working-dir="$PROJECT_DIR$/examples">
       <method v="2" />
     </configuration>
-    <configuration name="rabbitmq-insert.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/examples/rabbitmq-insert.js" working-dir="$PROJECT_DIR$/examples">
+    <configuration name="testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/testing.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.rabbitmq-insert.js" />
+        <item itemvalue="Node.js.testing.js" />
+        <item itemvalue="Node.js.cargo.js" />
         <item itemvalue="Node.js.consumer.js" />
         <item itemvalue="Node.js.message-broker.js" />
-        <item itemvalue="Node.js.publisher.js" />
-        <item itemvalue="Node.js.argv.js" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +95,7 @@
       <workItem from="1609308247015" duration="1749000" />
       <workItem from="1609310576299" duration="22984000" />
       <workItem from="1609340989355" duration="864000" />
-      <workItem from="1609400412391" duration="474000" />
+      <workItem from="1609400412391" duration="11004000" />
     </task>
     <servers />
   </component>
