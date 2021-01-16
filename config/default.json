@@ -5,8 +5,7 @@
     "database": "test"
   },
   "devicesTable": {
-    "tableName": "devices",
-    "tableName_idx": "devices_idx"
+    "tableName": "devices"
   },
   "bulkFlow": {
     "size": 1000

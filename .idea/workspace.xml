@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4ce69504-42cf-49c3-81ba-a6e7aff6a205" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +51,14 @@
       <recent name="$PROJECT_DIR$/bulk-insert" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.rabbitmq-insert.js">
+  <component name="RunManager" selected="Node.js.create-table.js">
     <configuration name="cargo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/cargo.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <configuration name="consumer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/consumer.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
-    <configuration name="message-broker.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/message-broker.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
+    <configuration name="create-table.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/create-table.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
       <method v="2" />
     </configuration>
     <configuration name="rabbitmq-insert.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/examples/rabbitmq-insert.js" working-dir="$PROJECT_DIR$/examples">
@@ -69,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.create-table.js" />
         <item itemvalue="Node.js.rabbitmq-insert.js" />
         <item itemvalue="Node.js.testing.js" />
         <item itemvalue="Node.js.cargo.js" />
         <item itemvalue="Node.js.consumer.js" />
-        <item itemvalue="Node.js.message-broker.js" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +95,16 @@
       <workItem from="1609308247015" duration="1749000" />
       <workItem from="1609310576299" duration="22984000" />
       <workItem from="1609340989355" duration="864000" />
-      <workItem from="1609400412391" duration="11004000" />
+      <workItem from="1609400412391" duration="11679000" />
+      <workItem from="1609476597304" duration="610000" />
+      <workItem from="1609493369383" duration="1252000" />
+      <workItem from="1609565601706" duration="19000" />
+      <workItem from="1610645529152" duration="1628000" />
+      <workItem from="1610683253481" duration="14000" />
+      <workItem from="1610780563133" duration="3899000" />
+      <workItem from="1610785285608" duration="643000" />
+      <workItem from="1610786727318" duration="1319000" />
+      <workItem from="1610827515389" duration="322000" />
     </task>
     <servers />
   </component>
