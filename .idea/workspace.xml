@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ce69504-42cf-49c3-81ba-a6e7aff6a205" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/clickhouse/insert-into-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/consumer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rabbitmq/publisher.js" afterDir="false" />
@@ -51,11 +50,8 @@
       <recent name="$PROJECT_DIR$/bulk-insert" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.create-table.js">
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration name="cargo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/cargo.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
-      <method v="2" />
-    </configuration>
-    <configuration name="consumer.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/consumer.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <configuration name="create-table.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/clickhouse/create-table.js" working-dir="$PROJECT_DIR$/lib/clickhouse">
@@ -64,16 +60,19 @@
     <configuration name="rabbitmq-insert.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/examples/rabbitmq-insert.js" working-dir="$PROJECT_DIR$/examples">
       <method v="2" />
     </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/rabbitmq/testing.js" working-dir="$PROJECT_DIR$/lib/rabbitmq">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.create-table.js" />
         <item itemvalue="Node.js.rabbitmq-insert.js" />
         <item itemvalue="Node.js.testing.js" />
         <item itemvalue="Node.js.cargo.js" />
-        <item itemvalue="Node.js.consumer.js" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +104,14 @@
       <workItem from="1610785285608" duration="643000" />
       <workItem from="1610786727318" duration="1319000" />
       <workItem from="1610827515389" duration="322000" />
+      <workItem from="1610860663372" duration="2486000" />
+      <workItem from="1611204466214" duration="15149000" />
+      <workItem from="1611395028823" duration="101000" />
+      <workItem from="1611933937639" duration="601000" />
+      <workItem from="1612157405113" duration="33000" />
+      <workItem from="1612158065195" duration="603000" />
+      <workItem from="1612162316885" duration="8000" />
+      <workItem from="1612337095402" duration="8908000" />
     </task>
     <servers />
   </component>
